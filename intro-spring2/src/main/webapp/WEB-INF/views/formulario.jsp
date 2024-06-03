@@ -84,7 +84,7 @@
 				<p>Nome: <form:input class="form-control" path="nome" required="required" aria-label="Nome"/>
 				<form:errors path="nome" cssClass="error"/></p>
 				
-				<p>Data de nascimento: <form:input type="date" class="form-control" path="dataNascimento" required="required" aria-label="Data de nascimento"/>
+				<p>Data de Nascimento: <form:input type="date" class="form-control" path="dataNascimento" required="required" aria-label="Data de nascimento"/>
 				<form:errors path="dataNascimento" cssClass="error"/></p>
 				
 				<p>Sexo: 
@@ -100,7 +100,7 @@
 				<p>Endereço: <form:input class="form-control" path="endereco" required="required" aria-label="Endereço"/>
 				<form:errors path="endereco" cssClass="error"/></p>
 				
-				<p>Gênero literário favorito: 
+				<p>Gênero Literário Favorito: 
 					<form:select class="form-control" path="generoFavorito" required="required" aria-label="Gênero literário favorito">
 						<form:option value="" label="Selecione"/>
 						<form:option value="Romance" label="Romance"/>
@@ -112,7 +112,7 @@
 					<form:errors path="generoFavorito" cssClass="error"/>
 				</p>
 				
-				<p>Telefone para contato: <form:input class="form-control" path="contato" required="required" aria-label="Telefone para contato"/>
+				<p>Telefone Para Contato: <form:input class="form-control" path="contato" required="required" aria-label="Telefone para contato"/>
 				<form:errors path="contato" cssClass="error"/></p>
 				
 				<p>E-mail: <form:input class="form-control" path="email" required="required" aria-label="E-mail"/>
